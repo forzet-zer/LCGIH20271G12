@@ -68,6 +68,9 @@ int main() {
 	unsigned int indices[] = {  // note that we start from 0!
 		1,2,3,// second Triangle
 		3,0,1,
+
+		//1,3,// second Triangle
+		//3,1,
 		
 	};
 
