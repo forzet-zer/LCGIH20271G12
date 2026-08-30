@@ -62,12 +62,21 @@ int main() {
 		0.5f,  0.5f, 0.0f,    1.0f,0.0f,0.0f,  // top right
 		0.5f, -0.5f, 0.0f,    1.0f,1.0f,0.0f,  // bottom right
 		-0.5f, -0.5f, 0.0f,   1.0f,0.0f,1.0f,  // bottom left
-		-0.5f,  0.5f, 0.0f,   1.0f,1.0f,0.0f, // top left 
+		-0.5f,  0.5f, 0.0f,   1.0f,1.0f,1.0f, // top left 
+		-1.0f,  0.5f, 0.0f,   0.0f,0.0f,1.0f, // top left 
+		1.0f,  0.5f, 0.0f,    1.0f,0.0f,1.0f,  // top right
 	};
 	//cuadrantes
 	unsigned int indices[] = {  // note that we start from 0!
-		1,2,3,// second Triangle
-		3,0,1,
+		//1,2,3,// second Triangle
+		//3,0,1
+		
+		
+		0,5,1,  //separated triangles
+		2,3,4
+		
+
+
 
 		//1,3,// second Triangle
 		//3,1,
@@ -134,7 +143,7 @@ int main() {
 		//glDrawArrays(GL_TRIANGLES, 0,3);
 		//glDrawArrays(GL_TRIANGLES, 0, 3);
 		
-        glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);
+        glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0); //cuadrialtero and separated triangles
 
         
         
