@@ -70,11 +70,19 @@ int main() {
 	unsigned int indices[] = {  // note that we start from 0!
 		//1,2,3,// second Triangle
 		//3,0,1
+<<<<<<< HEAD
 
 
 		0,5,1,  //separated triangles
 		2,3,4
 
+=======
+		
+		
+		0,5,1,  //separated triangles
+		2,3,4
+		
+>>>>>>> 643497c78d318d1b2fb0451d7c14a73ff39b4550
 
 
 
@@ -142,6 +150,11 @@ int main() {
 		//glDrawArrays(GL_TRIANGLES,0,3);
 		//glDrawArrays(GL_TRIANGLES, 0,3);
 		//glDrawArrays(GL_TRIANGLES, 0, 3);
+<<<<<<< HEAD
+=======
+		
+        glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0); //cuadrialtero and separated triangles
+>>>>>>> 643497c78d318d1b2fb0451d7c14a73ff39b4550
 
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0); //cuadrialtero and separated triangles
 
