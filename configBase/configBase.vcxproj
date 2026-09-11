@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="Main_Modelado.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,17 @@
     <None Include="Shader\core.frag" />
     <None Include="Shader\core.vs" />
   </ItemGroup>
+=======
+    <None Include="Shader\core.frag" />
+    <None Include="Shader\core.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_P3.cpp" />
+  </ItemGroup>
+>>>>>>> 8f80cf1e69d776bc3fa20f5e5b56afd0be87d6f2
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

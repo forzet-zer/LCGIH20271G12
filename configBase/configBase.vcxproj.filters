@@ -18,9 +18,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="Main_Modelado.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+=======
+    <None Include="Shader\core.frag">
+      <Filter>Archivos de origen\shader</Filter>
+    </None>
+    <None Include="Shader\core.vs">
+      <Filter>Archivos de origen\shader</Filter>
+    </None>
+>>>>>>> 8f80cf1e69d776bc3fa20f5e5b56afd0be87d6f2
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -28,11 +37,17 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Shader\core.frag">
       <Filter>Archivos de origen</Filter>
     </None>
     <None Include="Shader\core.vs">
       <Filter>Archivos de origen</Filter>
     </None>
+=======
+    <ClCompile Include="Main_P3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+>>>>>>> 8f80cf1e69d776bc3fa20f5e5b56afd0be87d6f2
   </ItemGroup>
 </Project>
