@@ -236,13 +236,13 @@ int main() {
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
-		glm::mat4 modelTempD0 = glm::mat4(1.0f);
+	/*	glm::mat4 modelTempD0 = glm::mat4(1.0f);
 		glm::mat4 modelTempD1 = glm::mat4(1.0f);
-		glm::mat4 modelTempD2 = glm::mat4(1.0f);
+		glm::mat4 modelTempD2 = glm::mat4(1.0f);*/
 		// Falange 0
 		model = glm::translate(modelTemp, glm::vec3(0.25f, 0.0f, 0.0f));
 		model = glm::rotate(model, glm::radians(Dig0F0), glm::vec3(0.0f, 0.0, 1.0f));
-		modelTempD0 = model = glm::translate(model, glm::vec3(0.2f, 0.25f, -0.25f));
+		modelTemp2 = model = glm::translate(model, glm::vec3(0.2f, 0.25f, -0.25f));
 		model = glm::scale(model, glm::vec3(0.4f, 0.2f, 0.2f));
 		color = glm::vec3(0.0f, 1.0f, 1.0f);
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color));
@@ -269,7 +269,7 @@ int main() {
 
 		// Falange 1
 
-		model = glm::translate(modelTempD0, glm::vec3(0.2f, 0.0f, 0.0f));
+		model = glm::translate(modelTemp2, glm::vec3(0.2f, 0.0f, 0.0f));
 		model = glm::rotate(model, glm::radians(Dig0F1), glm::vec3(0.0f, 0.0, 1.0f));
 		model = glm::translate(model, glm::vec3(0.15f, 0.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(0.3f, 0.2f, 0.2f));
