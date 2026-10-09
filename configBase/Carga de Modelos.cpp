@@ -165,6 +165,7 @@ int main( )
 
         cat.Draw(shader);
         model = glm::mat4(1);
+
         // Swap the buffers
         glfwSwapBuffers( window );
     }
